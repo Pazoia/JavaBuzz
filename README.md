@@ -13,9 +13,9 @@ This is an adaptation of FizzBuzz, I created this as my first JavaScript applica
 ## Description
 
 It: 
-displays `Java` when you select multiples of 3,
-displays `Buzz` when you select multiples of 5,
-displays `JavaBuzz` when you select multiples of 3 and 5,
+displays `Java` when you select multiples of 3,  
+displays `Buzz` when you select multiples of 5,  
+displays `JavaBuzz` when you select multiples of 3 and 5,  
 displays the selected number otherwise.
 
 ## Technologies
