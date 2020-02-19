@@ -1,6 +1,7 @@
 # JavaBuzz
 
-This is an adaptation of FizzBuzz, I created this as my first JavaScript application.
+This is an adaptation of FizzBuzz,  
+I created this as my first JavaScript application.
 
 ## Table of Contents
 
@@ -20,8 +21,8 @@ displays the selected number otherwise.
 
 ## Technologies
 
-JavaScript
-Jasmine 3.5.0
+* JavaScript
+* Jasmine 3.5.0
 
 ## Launch
 
