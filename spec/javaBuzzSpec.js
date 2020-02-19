@@ -47,4 +47,16 @@ describe("javaBuzz", function() {
       expect(javabuzz.display(3)).toEqual("Java");
     });
   });
+
+  describe("when playing, display", function() {
+    it(" 'Buzz' when a number is divisible by 5", function() {
+      expect(javabuzz.display(5)).toEqual("Buzz");
+    });
+  });
+
+  describe("when playing, display", function() {
+    it(" 'JavaBuzz' when a number is divisible by 3 and 5", function() {
+      expect(javabuzz.display(15)).toEqual("JavaBuzz")
+    });
+  });
 });

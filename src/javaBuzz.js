@@ -18,7 +18,17 @@ Javabuzz.prototype.isDivisibleByFive = function(number) {
 };
 
 Javabuzz.prototype.display = function(number) {
+  if (this.isDivisibleByThreeAndFive(number)) {
+    return "JavaBuzz"
+  };
+
   if (this.isDivisibleByThree(number)) {
     return "Java";
   };
+
+  if (this.isDivisibleByFive(number)) {
+    return "Buzz";
+  };
+
+  return number;
 };
